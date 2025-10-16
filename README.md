@@ -1,8 +1,3 @@
-# Računalniški praktikum
-CTRL C kopiraš nekaj
-CTRL V paste-aš nekaj
-CTRL TAB menjaš zavihek
-2. domača naloga 
 <!-- glavni naslov -->
 # Računalniški praktikum
 <!-- To je komentar, ki bo na prikazanem Markdown-u skrit. 
@@ -14,6 +9,9 @@ CTRL TAB menjaš zavihek
 * *Kopiraj* označeno v odložišče: Ctrl+C (**C**opy)
 * *Izreži* označeno v odložišče: Ctrl+X
 * *Prilepi* vsebino odložišča: Ctrl+V
+* *Menjati* zavihek Ctrl+tab
+* *izberi* cel tekst Ctrl+A
+* *Vrnitev* nazaj Ctrl+Z
 
 <!-- 2. nivojski razdelek -->
 ## Izvorna koda
