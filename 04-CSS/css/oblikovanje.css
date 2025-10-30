@@ -45,7 +45,7 @@ h2 {
    
 }
 .slika {
-    border: 2px solid red;
+    border: 2px solid white;
     font-size: 0.9eM; 
     width: 40%;   
     text-align: left;
@@ -60,9 +60,9 @@ h2 {
 
 .slika p:last-child {
     font-size: 0.8em;
-    background-color: #cc0000;
+    
 }
 
-a: ::before {
+a::before {
     content: "♥"
 }
