@@ -6,12 +6,12 @@
 <!-- 2. nivojski razdelek -->
 ## Bližnjice na tipkovnici
 
-* *Kopiraj* označeno v odložišče: Ctrl+C (**C**opy)
-* *Izreži* označeno v odložišče: Ctrl+X
-* *Prilepi* vsebino odložišča: Ctrl+V
-* *Menjati* zavihek Ctrl+tab
-* *izberi* cel tekst Ctrl+A
-* *Vrnitev* nazaj Ctrl+Z
+ Kopiraj označeno v odložišče: Ctrl+C (Copy)
+ Izreži označeno v odložišče: Ctrl+X
+ Prilepi vsebino odložišča: Ctrl+V
+ Menjati zavihek Ctrl+tab
+ izberi cel tekst Ctrl+A
+ Vrnitev nazaj Ctrl+Z
 
 <!-- 2. nivojski razdelek -->
 ## Izvorna koda
