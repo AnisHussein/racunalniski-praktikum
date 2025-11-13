@@ -335,21 +335,21 @@ zato si je smiselno podrobneje ogledati posamezne korake.
    
    \begin{enumerate}
       \item Z zanko se sprehodimo po vektorju vseh predmetov. Predmet na $i$-tem koraku
-      označimo s $\text{predmet_i}$.
+      označimo s $\text{predmet}_i$.
    
       \item Naslednja vgnezdena zanka nas popelje po vseh predavalnicah. Predavalnico na
-      $j$-tem koraku označimo s $\text{predavalnica_j}.$
+      $j$-tem koraku označimo s $\text{predavalnica}_j$
    
-      \item Za vse proste termine $\text{predavalnice_j}$ izračunamo ceno vstavljanja
-      $\text{srečanja_i}$, ki ga sestavlja $\text{predmet_i}$, profesor, ki ta predmet predava,
+      \item Za vse proste termine $\text{predavalnice}_j$ izračunamo ceno vstavljanja
+      $\text{srečanja}_i$, ki ga sestavlja $\text{predmet}_i$, profesor, ki ta predmet predava,
       ter skupina, kateri je predmet namenjen.
    
       \item Če je trenutna cena boljša od najboljše dosedanje, potem najboljša dosedanja
       dobi vrednost trenutne. Hkrati si zapomnimo, za kateri termin smo izračunali ceno
-      vstavljanja, da bomo $\text{predmet_i}$ na koncu vstavili v termin z najboljšo
+      vstavljanja, da bomo $\text{predmet}_i$ na koncu vstavili v termin z najboljšo
       ceno vstavljanja.
    
-      \item Ko preverimo vse proste termine vseh predavalnic, vstavimo $\text{srečanja_i}$
+      \item Ko preverimo vse proste termine vseh predavalnic, vstavimo $\text{srečanja}_i$
       v termin z najboljšo ceno.
    
       \item Sedaj se ponovno vrnemo na začetek in pogledamo najugodnejši termin za naslednji
@@ -476,7 +476,7 @@ izbiro spremembe preveri, če je vsebovana v seznamu prepovedanih sprememb. Pogl
 je takšno postopanje smiselno.
 
 Naj bo $$n=100$$ ter $s_1$ sprememba urnika, ki nas je pripeljala v lokalni maksimum. To
-spremembo (npr\. zamenjava $\text{srečanja_i}$ in $\text{srečanja_j}$) sedaj shranimo v
+spremembo (npr\. zamenjava $\text{srečanja}_i$ in $\text{srečanja}_j$) sedaj shranimo v
 seznam tabujev. V naslednjem koraku izvedemo spremembo $s_2$, ki se prav tako shrani v
 seznam prepovedanih sprememb. Podobno naredimo za vse spremembe v nadaljnih korakih. S
 tem poskrbimo, da se lahko v isti lokalni maksimum vrnemo šele čez $$n=100$$ korakov, saj
